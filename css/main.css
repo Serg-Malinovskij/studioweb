@@ -816,10 +816,10 @@
 }
 
 .examples-item:nth-child(1) .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0 var(--color-backgrond1);
+    box-shadow: 0 0 20px 0 var(--color-backgrond1);
 }
 .examples-item#examples-item1 .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0 var(--color-backgrond1);
+    box-shadow: 0 0 20px 0 var(--color-backgrond1);
 }
 
 .examples-item:nth-child(2) .examples-item-btn {
@@ -830,10 +830,10 @@
 }
 
 .examples-item:nth-child(2) .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0  var(--color-backgrond2);
+    box-shadow: 0 0 20px 0  var(--color-backgrond2);
 }
 .examples-item#examples-item2 .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0  var(--color-backgrond2);
+    box-shadow: 0 0 20px 0  var(--color-backgrond2);
 }
 
 .examples-item:nth-child(3) .examples-item-btn {
@@ -844,10 +844,10 @@
 }
 
 .examples-item:nth-child(3) .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0 var(--color-backgrond3);
+    box-shadow: 0 0 20px 0 var(--color-backgrond3);
 }
 .examples-item#examples-item3 .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0 var(--color-backgrond3);
+    box-shadow: 0 0 20px 0 var(--color-backgrond3);
 }
 
 .examples-item:nth-child(4) .examples-item-btn {
@@ -858,10 +858,10 @@
 }
 
 .examples-item:nth-child(4) .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0  var(--color-backgrond4);
+    box-shadow: 0 0 20px 0  var(--color-backgrond4);
 }
 .examples-item#examples-item4 .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0  var(--color-backgrond4);
+    box-shadow: 0 0 20px 0  var(--color-backgrond4);
 }
 
 .examples-item:nth-child(5) .examples-item-btn {
@@ -874,10 +874,10 @@
 }
 
 .examples-item:nth-child(5) .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0 var(--color-backgrond5);
+    box-shadow: 0 0 20px 0 var(--color-backgrond5);
 }
 .examples-item#examples-item5 .examples-item-btn:hover {
-    box-shadow: 0 0 34px 0 var(--color-backgrond5);
+    box-shadow: 0 0 20px 0 var(--color-backgrond5);
 }
 
 .examples-btns {
@@ -1387,7 +1387,7 @@
 }
 
 .application-form__btn:hover {
-    box-shadow: 0 0 32px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.3);
     outline: 3px solid #c2c4ff;
 }
 
