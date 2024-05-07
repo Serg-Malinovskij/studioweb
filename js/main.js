@@ -347,7 +347,7 @@ questionsBtn1.forEach(button => {
     button.addEventListener("click", () => {
         questionsDescr1.classList.toggle('questions__descr-on');
         questionsItem1.classList.toggle('active');
-        btnSvg1.classList.toggle('active');
+        btnSvg1.classList.toggle('active');      
     });
 });
 

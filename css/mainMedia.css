@@ -401,15 +401,15 @@
     }
 
     .hero-content1__right-widget1::after {
-        background-image: url(../img/сreation/hero/mobile/widget-img1.png);
+        background-image: url(../img/сreation/hero/mobile/widget-img1.svg);
     }
 
     .hero-content1__right-widget3::after {
-        background-image: url(../img/сreation/hero/mobile/widget-img3.png);
+        background-image: url(../img/сreation/hero/mobile/widget-img3.svg);
     }
 
     .hero-content1__right-widget4::after {
-        background-image: url(../img/сreation/hero/mobile/widget-img4.png);
+        background-image: url(../img/сreation/hero/mobile/widget-img4.svg);
     }
 
     .hero-content1__right-widget4 {
@@ -1594,7 +1594,7 @@
     }
 
     .questions__item:nth-child(5).active {
-        height: 110px;
+        height: 125px;
     }
 
     .questions__item:nth-child(6).active {
