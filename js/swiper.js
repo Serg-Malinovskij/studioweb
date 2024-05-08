@@ -132,6 +132,54 @@ window.addEventListener('DOMContentLoaded', function (){
    };
 
 
+  if (document.querySelector('.application__slider')) {
+ 
+     const reviewsSwiper = new Swiper('.application__slider', {
+       // Optional parameters
+       direction: 'horizontal',
+      //  loop: true,
+       speed:400,
+       // centeredSlides: true,
+      //  pagination: {
+      //    el: '.swiper-pagination',
+      //    clickable: true,
+      //  },
+       // Navigation arrows
+       navigation: {
+         nextEl: '.application-form__btn-next',
+        //  prevEl: '#promotion-prev-btn',
+       },
+       clikable: true,
+       setWrapperSize: true,
+      //  autoHeight: true,
+       // Default parameters
+        slidesPerView: 1,
+          spaceBetween: 20,
+          autoHeight: true,
+          centeredSlides: true,
+       // Responsive breakpoints
+      //  breakpoints: {
+      //   320: {
+      //     slidesPerView: 1,
+      //     spaceBetween: 20,          
+      //     centeredSlides: true,
+      //   },
+      //   767: {
+      //     slidesPerView: 1,
+      //     spaceBetween: 24,
+      //     autoHeight: true,          
+      //   },        
+      // },
+      //    autoplay: {
+      //    delay: 4000,
+      //    //отключение автоплей при управлении пользователем: disableOnInteraction: true,
+      //    disableOnInteraction: false,
+      //  },
+       // effect: 'flip',
+     });
+   };
+
+
   if (document.querySelector('.reviews__slider')) {
  
      const reviewsSwiper = new Swiper('.reviews__slider', {

@@ -824,12 +824,12 @@
                 align-items: center;
     }
 
-    .application-form {
+    /* .application-form {
         max-width: 300px;
-    }
+    } */
 
     .application-form__fields {
-        grid-template-columns: repeat(1, 300px);
+        grid-template-columns: 1fr;
     }
 
     .application-form__fields-text {
@@ -841,9 +841,9 @@
         min-height: 267px;
     }
 
-    .application-form__fields-input {
+    /* .application-form__fields-input {
         width: 100%;
-    }
+    } */
 
     /* promotion */
 
@@ -1420,8 +1420,8 @@
     }
 
     .application-form__btn-next {
-        padding: 11px 35px;
-        width: 165px;
+        padding: 11px 30px;
+        width: auto;
         font-size: 13px;
     }
 
@@ -1439,6 +1439,7 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+                flex:0 0 44px;
         width: 44px;
         height: 44px;
         border-radius: 50%;
@@ -1446,7 +1447,7 @@
     }
 
     .application-form__text {
-        width: 100%;
+        width: auto;
         min-height: 280px;
     }
 

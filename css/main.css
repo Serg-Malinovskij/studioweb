@@ -1299,7 +1299,9 @@
 .steps-item__inside-on {
     background-color: var(--descr-slate-blue);
 }
-
+.application__slide{
+    flex-shrink: 1;
+}
 .application-form__fields {
     display: grid;
     grid-template-columns: repeat(2, 257px);
@@ -1310,6 +1312,7 @@
 }
 
 .application-form__label {
+    width: auto;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -1376,6 +1379,7 @@
             justify-content: center;
     padding: 15px;
     margin-left: 5px;
+    margin-bottom:5px;
     gap: 13px;
     font-size: 16px;
     font-weight: 500;
