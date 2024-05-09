@@ -1312,13 +1312,15 @@
 }
 
 .application-form__label {
+    box-sizing: border-box;
     width: auto;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
             align-items: center;
     text-align: center;
-    padding: 16px 3px 16px 13px;
+    min-height: 54px;
+    padding: 5px 13px 5px 13px;
     border: 1px solid var(--color-GteyGrid);
     border-radius: 39px;
     background-color: white;
@@ -1365,7 +1367,7 @@
             flex-direction: row;
     position: relative;
     gap: 8px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .application-form__btn {
@@ -1377,9 +1379,10 @@
             align-items: center;
     -webkit-justify-content: center;
             justify-content: center;
-    padding: 15px;
+    padding:0 15px;
+    min-height:54px;
     margin-left: 5px;
-    margin-bottom:5px;
+    /* margin-bottom:5px; */
     gap: 13px;
     font-size: 16px;
     font-weight: 500;
@@ -1388,6 +1391,7 @@
     background-color: white;
     border-radius: 37px;
     transition: all .15s ease-in-out, color .15s ease-in-out;
+    margin-bottom: 3px;
 }
 
 .application-form__btn:hover {
@@ -1398,7 +1402,7 @@
 .application-form__btn-next {
     padding: 0;
     width: 200px;
-    padding: 17px 35px 17px 35px;
+    /* padding: 17px 35px 17px 35px; */
     resize: none;
 }
 
@@ -1449,6 +1453,7 @@
 }
 
 .application-form__text {
+    box-sizing: border-box;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -1471,7 +1476,9 @@
 }
 
 .application-form__fields-input {
-    padding: 17px 17px 17px 40px;
+    box-sizing: border-box;
+    padding: 5px 17px 5px 40px;
+    min-height: 54px;
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;

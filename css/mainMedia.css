@@ -494,6 +494,7 @@
                 justify-content: center;
         max-width: 183px;
         padding: 13px 25px;
+        margin-top: 10px;
         font-weight: 400;
         font-size: 14px;
         color: #fff;
@@ -1153,10 +1154,6 @@
         line-height: 124%;
     }
 
-    .hero-contant2__left-item:nth-child(3) {
-        margin-bottom: 12px;
-    }
-
     .hero-contant2__left-item-descr {
         padding: 7px 19px;
         font-size: 16px;
@@ -1413,14 +1410,16 @@
     }
 
     .application-form__btns {
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -webkit-box-align: flex-start;
+            -ms-flex-align: flex-start;
+                align-items: flex-start;
         gap: 7px;
     }
 
     .application-form__btn-next {
-        padding: 11px 30px;
+        box-sizing: border-box;
+        padding: 3px 30px;
+        min-height: 44px;
         width: auto;
         font-size: 13px;
     }
@@ -1448,7 +1447,7 @@
 
     .application-form__text {
         width: auto;
-        min-height: 280px;
+        min-height: 276px;
     }
 
     /* promotion */
