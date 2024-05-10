@@ -1392,7 +1392,7 @@
     }
 
     .application-form {
-        max-width: 257px;
+        /* max-width: 257px; */
     }
 
     .application-form__container {
@@ -1407,6 +1407,7 @@
         margin-bottom: 28px;
         grid-template-columns: 1fr;
         row-gap: 20px;
+        width: auto;
     }
 
     .application-form__btns {
