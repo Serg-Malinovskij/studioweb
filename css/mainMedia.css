@@ -1712,15 +1712,17 @@
     }
 }
 
-@media (max-width: 380px) {
-    .promotion__item:nth-child(1) {
-        padding: 35px 33px 23px 26px;
-        top: 297px;
-        width: 91%;
+@media (max-width: 480px) {
+    .promotion__item {
+        padding: 24px 16px 40px 16px;
+        top: 297px;       
     }
-
-    .promotion__item:not(:first-child) {
-        padding: 25px 44px 9px 44px;
+    .promotion__item-descr {
+       max-width: 245px;      
+    }
+    
+    .promotion__slide-1 .promotion__item{
+        padding: 24px 24px 22px 26px;
     }
 }
 

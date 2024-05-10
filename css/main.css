@@ -1179,7 +1179,9 @@
     opacity: 0;
     transition: all 1s ease;
 }
-
+.application *{
+    box-sizing: border-box;
+}
 .application.active {
     -webkit-transform: translateY(0);
             transform: translateY(0);
