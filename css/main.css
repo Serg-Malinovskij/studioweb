@@ -1483,13 +1483,14 @@
 .application-form__fields-input {
     display: block;
     box-sizing: border-box;
-    padding: 5px 17px 5px 40px;
+    /* padding: 5px 17px 5px 40px; */
     min-height: 54px;
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
     border-radius: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: none;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
     color: rgba(0, 0, 0, 0.75);
     max-width:100%;
 }
@@ -1500,6 +1501,11 @@
 
 .application-form__fields-block {
     position: relative;
+    padding: 0px 17px 0px 40px;
+
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
 }
 
 .input-circle {
