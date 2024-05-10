@@ -1182,6 +1182,9 @@
 .application *{
     box-sizing: border-box;
 }
+.application__slider{
+   min-width:0;
+}
 .application.active {
     -webkit-transform: translateY(0);
             transform: translateY(0);
