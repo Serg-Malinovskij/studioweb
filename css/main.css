@@ -1312,7 +1312,10 @@
             column-gap: 11px;
     row-gap: 17px;
 }
-
+.application-form__textarea{
+    min-width: 257px;
+    
+}
 .application-form__label {
     box-sizing: border-box;
     width: auto;
@@ -1478,6 +1481,7 @@
 }
 
 .application-form__fields-input {
+    display: block;
     box-sizing: border-box;
     padding: 5px 17px 5px 40px;
     min-height: 54px;
@@ -1487,6 +1491,7 @@
     border-radius: 40px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     color: rgba(0, 0, 0, 0.75);
+    max-width:100%;
 }
 
 .application-form__fields-input:focus {

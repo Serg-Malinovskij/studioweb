@@ -1405,7 +1405,7 @@
 
     .application-form__fields {
         margin-bottom: 28px;
-        grid-template-columns: repeat(1, 257px);
+        grid-template-columns: 1fr;
         row-gap: 20px;
     }
 
@@ -1446,7 +1446,7 @@
     }
 
     .application-form__text {
-        width: auto;
+        width: 100%;
         min-height: 276px;
     }
 
