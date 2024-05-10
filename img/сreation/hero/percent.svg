@@ -1,0 +1,7 @@
+
+  <svg width="64" height="64" viewBox="-8 -8 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)">
+    <circle r="22" cx="32" cy="32" fill="transparent" stroke="#e0e0e0" stroke-width="6" stroke-dasharray="138.16px" stroke-dashoffset="0"></circle>
+    <circle r="22" cx="32" cy="32" stroke="#6faef7" stroke-width="6" stroke-linecap="butt" stroke-dashoffset="185px" fill="transparent" stroke-dasharray="112.16px"></circle>
+    <text x="23px" y="37px" fill="#000000" font-size="11px" font-family="TT Firs Neue, sans-serif"   style="transform:rotate(90deg) translate(-5%, -81%)">+86%</text>
+  </svg>
+    
