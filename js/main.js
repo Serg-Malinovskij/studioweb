@@ -152,6 +152,11 @@ function applications() {
     }
 };
 window.addEventListener("scroll", applications);
+PricesBtns = document.querySelectorAll('.prices-item__left-btn').forEach((btn)=>{
+  btn.addEventListener("click", ()=>{
+    document.getElementById("application").style="transform: translateY(150px);";
+  })
+})
 
 /* Application - form */
 
